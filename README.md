@@ -1,7 +1,7 @@
 
 # Gender-Predictor-JavaFX-UI
 ### Explanation
-### Prediction Graph
+### Prediction Graph (Confusion Matrix)
 ![Predicted Graph](https://user-images.githubusercontent.com/73354099/127266079-5977aecf-e9a5-4304-9fee-852834f3035f.jpeg)
 #### The purple box shows the number of times it got it wrong, and the top left shows number of times it was female and it predicted female.
 #### The bottom right shows number of times it was male, and that it got male prediction correctly.
