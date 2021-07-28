@@ -25,7 +25,7 @@ print(metrics.roc_auc_score(dfy_test, y_pred_prob))
 ## Setup
 1. Download the entirety of the src folder.
 2. Setup File path names in model.py and scene2controller.java
-3. 2 Preloaded models have been provided filename.sav and filename2.sav one can use these or train their own model using javaproj(1).py 
+3. 2 Preloaded models have been provided finalized_model.sav and finalized_model1.sav one can use these or train their own model using javaproj(1).py 
 
 # Authors
 ### Vikram Shenoy
