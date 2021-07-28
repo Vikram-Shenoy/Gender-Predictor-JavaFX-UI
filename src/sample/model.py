@@ -21,8 +21,8 @@ import numpy as np
 # In[107]:
 
 
-filename = 'C:\\Users\\Vikram\\Documents\\Interprocess\\finalized_model.sav'
-filename1 = 'C:\\Users\\Vikram\\Documents\\Interprocess\\finalized_model1.sav'
+filename = 'finalized_model.sav'
+filename1 = 'finalized_model1.sav'
 
 # In[108]:
 
@@ -61,7 +61,7 @@ def genderpredictor1(a):
     test_name1 = [a]
     transform_dv = dv.transform(features(test_name1))
     vector = transform_dv.toarray()
-    fw = open("C:\\Users\\Vikram\\Documents\\SecondTry\\src\\sample\\results.txt", "w")
+    fw = open("results.txt", "w")
     if dclf.predict(vector) == 0:
         fw.write("Female")
     else:
@@ -93,7 +93,7 @@ import sys
 
 # In[115]:
 #
-with open("C:\\Users\\Vikram\\Documents\\SecondTry\\name.txt") as f:
+with open("name.txt") as f:
     a = f.read()
 genderpredictor1(a)
 
