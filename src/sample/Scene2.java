@@ -67,8 +67,8 @@ public class Scene2 {
         }
         try{
             List<String> commands = new ArrayList<>();
-            commands.add("C:\\Users\\Vikram\\AppData\\Local\\Programs\\Python\\Python39\\python.exe "); // command
-            commands.add("C:\\Users\\Vikram\\Documents\\SecondTry\\src\\model.py");
+            commands.add("python.exe "); // command
+            commands.add("model.py");
             ProcessBuilder pb = new ProcessBuilder(commands);
             Process p = pb.start();
             p.waitFor();
@@ -77,7 +77,7 @@ public class Scene2 {
         }
 
         try{
-            File file = new File("C:\\Users\\Vikram\\Documents\\SecondTry\\src\\sample\\results.txt");
+            File file = new File("results.txt");
             Scanner sc;
             sc = new Scanner(file);
             while (sc.hasNextLine()){
